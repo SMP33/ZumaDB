@@ -19,7 +19,7 @@ class Street(BaseModel):
 def getHtml(url) -> str:
     return requests.get(url).text
 
-
+# Получение списка улиц
 def parseStreets(streetsTags) -> List[Street]:
     streets: List[Street] = []
     for t in streetsTags:
