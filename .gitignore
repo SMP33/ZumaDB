@@ -1,0 +1,6 @@
+/build
+/venv
+/.idea
+/__pycahe__
+*.spec
+*.csv
